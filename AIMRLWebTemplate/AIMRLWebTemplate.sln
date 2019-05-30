@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9BC15F60-2F5C-4B21-87BB-018B57A4B9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataFramework", "DataFramework", "{22D5AC26-A280-4F45-881B-4063CD9CD10F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainApplication", "MainApplication", "{15CCD1F4-1013-4B52-8DF2-9CFB1E6B844A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCIT.AIMRL.WebAppName.Entities", "PUCIT.AIMRL.WebAppName.Entities\PUCIT.AIMRL.WebAppName.Entities.csproj", "{46330E6D-54F9-4A66-8836-D159302E8120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCIT.AIMRL.WebAppName.DAL", "PUCIT.AIMRL.WebAppName.DAL\PUCIT.AIMRL.WebAppName.DAL.csproj", "{4428D4C6-8891-42F7-AF32-930B76815A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCIT.AIMRL.WebAppName.UI.Common", "PUCIT.AIMRL.WebAppName.UI.Common\PUCIT.AIMRL.WebAppName.UI.Common.csproj", "{5EA0C475-A1C8-4297-92A9-3175C159013A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCIT.AIMRL.WebAppName.MainApp", "PUCIT.AIMRL.WebAppName.MainApp\PUCIT.AIMRL.WebAppName.MainApp.csproj", "{BFF84D9B-3437-499C-825B-B5F39B2376E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46330E6D-54F9-4A66-8836-D159302E8120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46330E6D-54F9-4A66-8836-D159302E8120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46330E6D-54F9-4A66-8836-D159302E8120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46330E6D-54F9-4A66-8836-D159302E8120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4428D4C6-8891-42F7-AF32-930B76815A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4428D4C6-8891-42F7-AF32-930B76815A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4428D4C6-8891-42F7-AF32-930B76815A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4428D4C6-8891-42F7-AF32-930B76815A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA0C475-A1C8-4297-92A9-3175C159013A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA0C475-A1C8-4297-92A9-3175C159013A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA0C475-A1C8-4297-92A9-3175C159013A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA0C475-A1C8-4297-92A9-3175C159013A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF84D9B-3437-499C-825B-B5F39B2376E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF84D9B-3437-499C-825B-B5F39B2376E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF84D9B-3437-499C-825B-B5F39B2376E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF84D9B-3437-499C-825B-B5F39B2376E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46330E6D-54F9-4A66-8836-D159302E8120} = {22D5AC26-A280-4F45-881B-4063CD9CD10F}
+		{4428D4C6-8891-42F7-AF32-930B76815A24} = {22D5AC26-A280-4F45-881B-4063CD9CD10F}
+		{5EA0C475-A1C8-4297-92A9-3175C159013A} = {9BC15F60-2F5C-4B21-87BB-018B57A4B9B5}
+		{BFF84D9B-3437-499C-825B-B5F39B2376E7} = {15CCD1F4-1013-4B52-8DF2-9CFB1E6B844A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAC4D4BB-0564-419D-99B7-1C024F37BAFC}
+	EndGlobalSection
+EndGlobal
