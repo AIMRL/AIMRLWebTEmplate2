@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\PUCIT.AIMRL.Common\PUCIT.AIMRL.Common.csproj" />
+    <ProjectReference Include="..\PUCIT.AIMRL.WebAppName.Entities\PUCIT.AIMRL.WebAppName.Entities.csproj" />
+    <ProjectReference Include="..\PUCIT.AIMRL.WebAppName.UI.Common\PUCIT.AIMRL.UI.Common.csproj" />
+    <ProjectReference Include="..\PUCIT.AIMRL.WebAppName.UI.Common\PUCIT.AIMRL.WebAppName.UI.Common.csproj" />
+  </ItemGroup>
+
 </Project>
